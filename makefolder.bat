@@ -1,0 +1,1 @@
+mkdir "%UserProfile%\Desktop\input"

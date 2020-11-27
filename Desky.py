@@ -40,7 +40,7 @@ def start_batch6():
        canvas2.create_line(130, 320, 500, 320, fill="#d3d3d3")
        canvas2.create_line(50, 0, 90, 400, fill="#d3d3d3")
        canvas2.pack()
-       button17 = tk.Button (root, text='Input Folder is Generated on the Desktop\n Please copy all the files into it then click on sort now',bg='#444',fg='red')
+       button17 = tk.Button (root, text='Input Folder is Generated on the Desktop\n Please copy all the files into it then click on sort now\n Sorted Data will be moved to Output folder on Desktop',bg='#444',fg='red')
        canvas2.create_window(190,50, window=button17)
        button16 = tk.Button (root, text='Sort Now',command=start_batch16,bg='#d3d3d3',fg='#13024f')
        canvas2.create_window(190,190, window=button16)
